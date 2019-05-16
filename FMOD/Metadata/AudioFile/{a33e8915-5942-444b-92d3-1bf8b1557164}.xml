@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{a33e8915-5942-444b-92d3-1bf8b1557164}">
+        <property name="assetPath">
+            <value>smb_jump-small.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>22.0499992</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.59011337868480729</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{b43b0810-a560-4d5d-9519-be2657612cf3}</destination>
+        </relationship>
+    </object>
+</objects>

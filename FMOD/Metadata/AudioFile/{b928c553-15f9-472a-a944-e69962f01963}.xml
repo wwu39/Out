@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{b928c553-15f9-472a-a944-e69962f01963}">
+        <property name="assetPath">
+            <value>smb_mariodie.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>22.0499992</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>2.7122902494331065</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{b43b0810-a560-4d5d-9519-be2657612cf3}</destination>
+        </relationship>
+    </object>
+</objects>

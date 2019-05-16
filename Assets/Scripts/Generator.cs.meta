@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 304062bb0cec4a14c856183b499bce8a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - floorTile: {fileID: 8043527416301883222, guid: af35486dcb0984f4082c9226313d3419,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

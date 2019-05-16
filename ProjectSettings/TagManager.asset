@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Tile
+  - TilePiece
+  - FxTemporaire
+  - Crate
+  - sTile
+  - DashingExtend
+  - Cannon
+  - TileLike
+  - Bomber
+  - MysteriousBox
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Tile
+  - Fragment
+  - Player
+  - Crate
+  - sTile
+  - Star
+  - BoxBlock
+  - Background
+  - ProjectorText
+  - MysteriousBox
+  - DashingAssisted
+  - Detector
+  - Spike
+  - TileLike
+  - Projectile
+  - Bomber
+  - Elevator
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

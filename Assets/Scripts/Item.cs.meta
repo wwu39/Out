@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: b108f779e360ca44dbac7988d228bbbd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - DashBelowChecker: {fileID: 8326703351322705921, guid: fc574e98552c11d46b8e89ad44f66708,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{637e67e4-5e07-459c-b3e8-76e386183b81}">
+        <property name="assetPath">
+            <value>vgriatta.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>22.0499992</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>1.0252607709750567</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{b43b0810-a560-4d5d-9519-be2657612cf3}</destination>
+        </relationship>
+    </object>
+</objects>

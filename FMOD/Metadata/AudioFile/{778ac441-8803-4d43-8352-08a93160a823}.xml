@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{778ac441-8803-4d43-8352-08a93160a823}">
+        <property name="assetPath">
+            <value>igenexpa.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>22.0499992</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.87015873015873013</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{b43b0810-a560-4d5d-9519-be2657612cf3}</destination>
+        </relationship>
+    </object>
+</objects>

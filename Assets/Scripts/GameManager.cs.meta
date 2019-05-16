@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e03bcf5db91c8124eaad8a09086b8391
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - winsc: {fileID: 6693951987870563598, guid: 46c2ed8f8434e694985fcbd43018dcca, type: 3}
+  - losesc: {fileID: 6693951987870563598, guid: f1f311d146fff714d800c4af61736c7e,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
