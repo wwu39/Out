@@ -13,12 +13,17 @@ public class Cannon : Item
     float ROFCounter;
     bool isHit;
     Vector3 DefaultDirection;
+    float ROT = 0.2f;
+    float ROTCounter;
+    Vector3 curDirection;
 
     // Start is called before the first frame update
     new void Start()
     {
         base.Start();
         if (!Target) Target = GameObject.FindGameObjectWithTag("Player");
+        if (Target) curDirection = Target.transform.position - transform.position;
+        ROTCounter = Time.time;
         ROFCounter = InitialDelay + Time.time;
         isHit = false;
         CenterPos = transform.position;
@@ -31,9 +36,18 @@ public class Cannon : Item
     {
         if (!isHit)
         {
+            if (Target)
+            {
+                if (Time.time - ROTCounter > ROT)
+                {
+                    curDirection = Target.transform.position - transform.position;
+                    ROTCounter = Time.time;
+                }
+            }
+
             Vector3 bulletVelocity;
             if (angle >= 0) bulletVelocity = DefaultDirection.normalized * BulletSpeed;
-            else bulletVelocity = (Target ? (Target.transform.position - transform.position).normalized : DefaultDirection.normalized) * BulletSpeed;
+            else bulletVelocity = (Target ? curDirection.normalized : DefaultDirection.normalized) * BulletSpeed;
             transform.rotation = Quaternion.LookRotation(bulletVelocity);
             if (Time.time - ROFCounter > ROF)
             {

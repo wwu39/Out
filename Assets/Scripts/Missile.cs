@@ -60,35 +60,25 @@ public class Missile : Item
             // detect if player in range
             if (Target)
             {
-                state = MissileState.Locking;
                 angry.SetActive(true);
                 var angryPos = angry.transform.position;
                 FMODUnity.RuntimeManager.PlayOneShot(AngrySound);
                 lockingStartTime = Time.time;
+                launchForce = (Target.transform.position - transform.position).normalized * 1.5f;
+                transform.rotation = Quaternion.LookRotation(launchForce);
+                anim.Play("Launch");
+                state = MissileState.Locking;
             }
         }
         else if (state == MissileState.Locking)
         {
-            // if player out of range, back to NONE stage
-            if (!Target)
-            {
-                state = MissileState.None;
-                angry.SetActive(false);
-            }
-            else if (lockingStartTime >= 0 && Time.time - lockingStartTime > lockonTime)
+            if (lockingStartTime >= 0 && Time.time - lockingStartTime > lockonTime)
             {
                 lr.enabled = false;
-                anim.Play("Launch");
-                launchForce = (Target.transform.position - transform.position).normalized * 1.5f;
                 lockingStartTime = -1;
                 var rb = gameObject.AddComponent<Rigidbody>();
                 rb.useGravity = false;
-                transform.rotation = Quaternion.LookRotation(launchForce);
                 state = MissileState.Launch;
-            }
-            else
-            {
-                transform.rotation = Quaternion.LookRotation(Target.transform.position - transform.position);
             }
 
         }

@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: C:\Users\abc\Desktop\GPM\GameStudio1\Proj1\GAME270Proj3Fmod\GAME270Proj1Fmod.fspro
-  SourceProjectPathUnformatted: C:\Users\abc\Desktop\GPM\GameStudio1\Proj1\GAME270Proj3Fmod\GAME270Proj1Fmod.fspro
-  SourceBankPathUnformatted: C:\Users\abc\Desktop\GPM\GameStudio1\Proj1\GAME270Proj3Fmod\Build
+  sourceProjectPath: FMOD\GAME270Proj1Fmod.fspro
+  SourceProjectPathUnformatted: FMOD\GAME270Proj1Fmod.fspro
+  SourceBankPathUnformatted: FMOD\Build
   AutomaticEventLoading: 1
   AutomaticSampleLoading: 0
   ImportType: 0
